@@ -8,6 +8,15 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,.js,jsx,css,scss,md,html,json}\""
   },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint"
+    ],
+    "**/*.{css,scss,md,html,json}": [
+      "prettier --write"
+    ]
+  },
   "devDependencies": {
     "husky": "^9.1.6",
     "prettier": "^3.2.5",
@@ -17,5 +26,8 @@
   "packageManager": "pnpm@8.15.6",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "lint-staged": "^15.2.10"
   }
 }
