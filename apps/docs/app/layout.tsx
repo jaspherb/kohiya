@@ -1,18 +1,18 @@
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
 
 // These styles apply to every route in the application
-import './globals.css';
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Kohiya',
-  description: ''
+  title: "Kohiya",
+  description: "",
 };
 
 type RootLayoutProps = {
   children: React.ReactNode;
 };
 
-import { ThemeProvider } from '@/components/theme-provider';
+import { ThemeProvider } from "@/components/theme-provider";
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
