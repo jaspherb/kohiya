@@ -1,7 +1,7 @@
 ---
 name: "\U0001F680 Task"
 about: Template for Task
-title: ''
+title: '🚀 '
 labels: ''
 assignees: ''
 
@@ -19,11 +19,3 @@ assignees: ''
 
 **Additional Context**  
 <!-- Add any other context, screenshots, or references that will help someone complete the task. -->
-
-**Priority**  
-- [ ] Low
-- [ ] Medium
-- [ ] High
-
-**Deadline**  
-<!-- Specify a due date or leave blank if none. -->
