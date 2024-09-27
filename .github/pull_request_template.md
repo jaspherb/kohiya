@@ -20,14 +20,6 @@
 
 <!-- If applicable, add screenshots or visuals that show the changes. -->
 
-**Type of Change**
-
-- [ ] 🐞 Bug fix (non-breaking change which fixes an issue)
-- [ ] 🌟 New feature (non-breaking change which adds functionality)
-- [ ] 🔧 Refactor (non-breaking change that improves code)
-- [ ] ⚠️ Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] 📚 Documentation update
-
 **Checklist**
 
 <!-- Ensure all tasks are complete before submitting the PR. -->
