@@ -4,10 +4,7 @@
       "mode": "auto"
     }
   ],
-  "conventionalCommits.scopes": [
-    "root",
-    "apps/docs"
-  ],
+  "conventionalCommits.scopes": ["root", "apps/docs"],
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
   "less.lint.unknownAtRules": "ignore"
