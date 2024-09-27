@@ -2,33 +2,39 @@
 name: "\U0001F41E Bug Report"
 about: Create a report to help us improve
 title: "\U0001F41E"
-labels: ''
-assignees: ''
-
+labels: ""
+assignees: ""
 ---
 
-**Description**  
+**Description**
+
 <!-- A clear and concise description of the bug. -->
 
-**Steps to Reproduce**  
+**Steps to Reproduce**
+
 1. Step one
 2. Step two
 3. Step three
 4. See the error
 
-**Expected Behavior**  
+**Expected Behavior**
+
 <!-- What should happen? -->
 
-**Actual Behavior**  
+**Actual Behavior**
+
 <!-- What actually happens? -->
 
-**Screenshots or Logs**  
+**Screenshots or Logs**
+
 <!-- Add any screenshots, logs, or error messages to help understand the issue. -->
 
-**Environment**  
+**Environment**
+
 - OS: [e.g., macOS, Windows]
 - Browser: [e.g., Chrome, Safari]
 - Version: [e.g., 1.0.0]
 
-**Additional Context**  
+**Additional Context**
+
 <!-- Add any other context about the problem here. -->

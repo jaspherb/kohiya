@@ -1,21 +1,24 @@
 ---
 name: "\U0001F680 Task"
 about: Template for Task
-title: '🚀 '
-labels: ''
-assignees: ''
-
+title: "🚀 "
+labels: ""
+assignees: ""
 ---
 
 ## 🚀 Task
 
-**Description**  
+**Description**
+
 <!-- Provide a clear and concise description of the task. -->
 
-**Acceptance Criteria**  
+**Acceptance Criteria**
+
 <!-- List the conditions that must be met for the task to be considered complete. -->
+
 - [ ] Criterion 1
 - [ ] Criterion 2
 
-**Additional Context**  
+**Additional Context**
+
 <!-- Add any other context, screenshots, or references that will help someone complete the task. -->
