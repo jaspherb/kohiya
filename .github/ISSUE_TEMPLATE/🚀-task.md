@@ -1,7 +1,7 @@
 ---
 name: "\U0001F680 Task"
 about: Template for Task
-title: ''
+title: '🚀 '
 labels: ''
 assignees: ''
 
