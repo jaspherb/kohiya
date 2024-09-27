@@ -6,7 +6,7 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,.js,jsx,css,scss,md,html,json}\""
   },
   "devDependencies": {
     "husky": "^9.1.6",
