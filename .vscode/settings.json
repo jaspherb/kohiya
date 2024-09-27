@@ -4,7 +4,5 @@
       "mode": "auto"
     }
   ],
-  "conventionalCommits.scopes": [
-    "root"
-  ]
+  "conventionalCommits.scopes": ["root"]
 }
