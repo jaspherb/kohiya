@@ -1,17 +1,17 @@
-import type { Metadata } from 'next';
-import './globals.css';
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'kohiya',
-  description: 'Discover the best coffee and experience the charm of Kohiya.'
+  title: "kohiya",
+  description: "Discover the best coffee and experience the charm of Kohiya.",
 };
 
 type RootLayoutProps = {
   children: React.ReactNode;
 };
 
-import { ThemeProvider } from '@/components/theme-provider';
-import { AppBar } from '@/components/app-bar';
+import { ThemeProvider } from "@/components/theme-provider";
+import { AppBar } from "@/components/app-bar";
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
