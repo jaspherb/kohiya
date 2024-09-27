@@ -1,0 +1,10 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "conventionalCommits.scopes": [
+    "root"
+  ]
+}
