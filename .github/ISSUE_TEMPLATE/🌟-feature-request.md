@@ -20,8 +20,3 @@ assignees: ''
 
 **Additional Context**  
 <!-- Add any other context or screenshots about the feature request. -->
-
-**Priority**  
-- [ ] Low
-- [ ] Medium
-- [ ] High
