@@ -2,7 +2,7 @@
 name: "\U0001F680 Task"
 about: Template for Task
 title: "🚀 "
-labels: ""
+labels: "🛠️ task, ⭐ new"
 assignees: ""
 ---
 
