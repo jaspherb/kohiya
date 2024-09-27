@@ -2,12 +2,14 @@
   "name": "kohiya",
   "private": true,
   "scripts": {
+    "prepare": "husky",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,.js,jsx,css,scss,md,html,json}\""
   },
   "devDependencies": {
+    "husky": "^9.1.6",
     "prettier": "^3.2.5",
     "turbo": "^2.1.2",
     "typescript": "^5.4.5"
