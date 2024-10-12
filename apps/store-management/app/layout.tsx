@@ -8,12 +8,14 @@ export const metadata: Metadata = {
 
 type RootLayoutProps = {
   children: React.ReactNode;
+  params: {
+    storeCuid: string;
+  };
 };
 
 import { ThemeProvider } from "@/components/theme-provider";
-import { AppBar } from "@/components/app-bar";
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children, params }: RootLayoutProps) {
   return (
     <>
       <html lang="en" suppressHydrationWarning>
@@ -25,9 +27,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
             disableTransitionOnChange
           >
             <div className="max-h-screen flex flex-col">
-              <header className="fixed top-0 left-0 right-0 z-50 p-3  bg-white dark:bg-black text-black dark:text-white">
-                <AppBar />
-              </header>
               <main className="container mx-auto p-6 pt-16">{children}</main>
             </div>
           </ThemeProvider>
